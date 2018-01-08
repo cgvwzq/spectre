@@ -1,3 +1,4 @@
+#include <stdint.h> # without this it throws "unknown type name ‘uint64_t’"
 #include <stdio.h>
 #include <sys/mman.h>
 #include <stdlib.h>
